@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Travel Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#posts">Blog Posts</a></li>
+                <li><a href="#destinations">Popular Destinations</a></li>
+                <li><a href="#submit">Submit a Post</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="posts" class="posts">
+            <h2>Blog Posts</h2>
+            <div class="post">
+                <h3>Exploring the Mountains</h3>
+                <p><strong>Date:</strong> January 20, 2024</p>
+                <p><strong>Popularity:</strong> 150 views</p>
+                <p>Experience the beauty of the mountains with breathtaking views and adventurous hiking trails.</p>
+            </div>
+            <div class="post">
+                <h3>Beach Getaway</h3>
+                <p><strong>Date:</strong> February 15, 2024</p>
+                <p><strong>Popularity:</strong> 200 views</p>
+                <p>Relax and unwind at the beach with sunny skies, warm sand, and crystal clear waters.</p>
+            </div>
+            <div class="post">
+                <h3>Cultural Journey in Europe</h3>
+                <p><strong>Date:</strong> March 10, 2024</p>
+                <p><strong>Popularity:</strong> 300 views</p>
+                <p>Explore the rich history and diverse cultures across various European cities.</p>
+            </div>
+        </section>
+        <aside>
+            <section id="destinations" class="destinations">
+                <h2>Popular Destinations</h2>
+                <table>
+                    <tr>
+                        <th>Destination</th>
+                        <th>Region</th>
+                    </tr>
+                    <tr>
+                        <td>Paris</td>
+                        <td>Europe</td>
+                    </tr>
+                    <tr>
+                        <td>Tokyo</td>
+                        <td>Asia</td>
+                    </tr>
+                    <tr>
+                        <td>New York</td>
+                        <td>North America</td>
+                    </tr>
+                    <tr>
+                        <td>Rio de Janeiro</td>
+                        <td>South America</td>
+                    </tr>
+                    <tr>
+                        <td>Cape Town</td>
+                        <td>Africa</td>
+                    </tr>
+                </table>
+            </section>
+            <section id="submit" class="submit">
+                <h2>Submit a Blog Post</h2>
+                <form>
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" name="title" required>
+                    <label for="content">Content:</label>
+                    <textarea id="content" name="content" rows="4" required></textarea>
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Travel Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0;
+    background-color:lightgrey; 
+}
+header {
+    background-color: rgb(30, 173, 30);
+    color: white; 
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+nav ul li {
+    display: inline; 
+    margin: 0 15px; 
+}
+
+nav a {
+    color: white; 
+    text-decoration: none;
+}
+main {
+    display: flex;
+    margin: 20px; 
+}
+.posts {
+    flex: 3; 
+    margin-right: 20px; 
+}
+.post {
+    border: 1px solid lightgrey; 
+    padding: 15px; 
+    margin-bottom: 20px; 
+    background-color: white; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+aside {
+    flex: 1; 
+}
+.destinations, .submit {
+    border: 1px solid whitesmoke; 
+    padding: 15px; 
+    background-color: rgb(238, 231, 231);
+    margin-bottom: 20px; 
+}
+table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+th, td {
+    border: 1px solid grey; 
+    padding: 8px; 
+    text-align: left; 
+}
+th {
+    background-color: rgb(78, 197, 78); 
+    color: white; 
+}
+form {
+    display: flex; 
+    flex-direction: column;
+}
+label {
+    margin: 10px 0 5px; 
+}
+input[type="text"], input[type="date"], textarea {
+    padding: 10px; 
+    border: 1px solid rgb(208, 203, 203); 
+    border-radius: 5px; 
+}
+button {
+    background-color: rgb(103, 237, 103); 
+    color: white; 
+    padding: 10px;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgb(17, 115, 17); 
+}
+footer {
+    text-align: center; 
+    padding: 10px 0;
+    background-color: rgb(70, 171, 70); 
+    color: white; 
+    position: relative; 
+    bottom: 0;
+    width: 100%; 
+}
