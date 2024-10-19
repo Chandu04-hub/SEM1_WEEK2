@@ -1,0 +1,16 @@
+.pattern-section {
+    background-image: url('https://th.bing.com/th/id/R.5d6c558e014b6c0fd75215d6fedb9b94?rik=KG03fzIKOBt2PA&riu=http%3a%2f%2fwww.vacentaylor.com%2fwp-content%2fuploads%2f2012%2f12%2f647.jpg&ehk=V0PaUrEIrXiH7FIGmcHE22JsSBX77tLuFxu2avD8nIU%3d&risl=1&pid=ImgRaw&r=0'); /* Path to your repeating background image */
+    background-repeat: repeat; 
+    padding: 50px;
+    text-align: center; 
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.pattern-section h1 {
+    margin: 0;
+    font-size: 2em; 
+}
+.pattern-section p {
+    margin-top: 10px; 
+    font-size: 1.2em; 
+}

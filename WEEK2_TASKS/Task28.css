@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://th.bing.com/th/id/R.5d6c558e014b6c0fd75215d6fedb9b94?rik=KG03fzIKOBt2PA&riu=http%3a%2f%2fwww.vacentaylor.com%2fwp-content%2fuploads%2f2012%2f12%2f647.jpg&ehk=V0PaUrEIrXiH7FIGmcHE22JsSBX77tLuFxu2avD8nIU%3d&risl=1&pid=ImgRaw&r=0'); /* Path to your background image */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

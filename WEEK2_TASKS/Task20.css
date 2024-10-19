@@ -1,0 +1,28 @@
+body {
+    background-color: #f0f8ff; /* Light background color */
+    font-family: Arial, sans-serif; /* Font style */
+    display: flex; /* Flexbox for centering */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+.button-container {
+    text-align: center; /* Center text alignment */
+}
+
+.hover-button {
+    background-color: #1e90ff; /* Initial button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px 30px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.hover-button:hover {
+    background-color: #00bfff; /* Color change on hover */
+}

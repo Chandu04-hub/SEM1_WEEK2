@@ -1,0 +1,17 @@
+body {
+    background-color: #f0f8ff; /* Light background color for contrast */
+    font-family: Arial, sans-serif; /* Font style */
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Flexbox for centering */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+}
+
+.transparent-box {
+    background-color: rgba(30, 144, 255, 0.5); /* Semi-transparent blue (50% opacity) */
+    padding: 20px; /* Padding inside the box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+    text-align: center; /* Center text alignment */
+}

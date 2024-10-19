@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+}
+
+.registration-container {
+    max-width: 400px; /* Limit the width of the form */
+    margin: auto; /* Center the form */
+    padding: 20px;
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: white; /* White background for the form */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark text for heading */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between input fields */
+}
+
+label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below labels */
+    color: #333; /* Dark text for labels */
+}
+
+input[type="text"], input[type="email"], input[type="password"], select {
+    width: 100%; /* Full width for input fields and select */
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+button {
+    width: 100%; /* Full width for button */
+    padding: 10px; /* Padding inside button */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Larger font size */
+    cursor: pointer; /* Pointer cursor on hover */
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu with Custom List Symbols</title>
+    <style>
+        ul.main-menu > li {
+            list-style-type: none; 
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .appetizers > li::before {
+            content: "🍤 "; 
+        }
+        .main-course > li::before {
+            content: "🍲 "; 
+        }
+        .desserts > li::before {
+            content: "🍰 "; 
+        }
+        ul.main-menu ul {
+            list-style-type: none; 
+            padding-left: 20px;
+        }
+        ul.main-menu {
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Restaurant Menu</h1>
+    <ul class="main-menu">
+        <li>Appetizers
+            <ul class="appetizers">
+                <li>Bruschetta</li>
+                <li>Stuffed Mushrooms</li>
+                <li>Garlic Bread</li>
+            </ul>
+        </li>
+        <li>Main Course
+            <ul class="main-course">
+                <li>Grilled Chicken Alfredo</li>
+                <li>Margherita Pizza</li>
+                <li>Vegetable Stir Fry</li>
+            </ul>
+        </li>
+        <li>Desserts
+            <ul class="desserts">
+                <li>Tiramisu</li>
+                <li>Chocolate Lava Cake</li>
+                <li>Cheesecake</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,43 @@
+/* Styling h1 to h6 with different fonts and sizes */
+h1 {
+    font-family: 'Arial', sans-serif; /* Font for h1 */
+    font-size: 40px; /* Size for h1 */
+    font-weight: bold;
+    color: #333; /* Dark gray color */
+}
+
+h2 {
+    font-family: 'Times New Roman', serif; /* Font for h2 */
+    font-size: 35px; /* Size for h2 */
+    font-weight: normal;
+    color: #555; /* Slightly lighter gray */
+}
+
+h3 {
+    font-family: 'Verdana', sans-serif; /* Font for h3 */
+    font-size: 30px; /* Size for h3 */
+    font-weight: lighter;
+    color: #777; /* Even lighter gray */
+}
+
+h4 {
+    font-family: 'Courier New', monospace; /* Font for h4 */
+    font-size: 25px; /* Size for h4 */
+    font-style: italic;
+    color: #999; /* Light gray color */
+}
+
+h5 {
+    font-family: 'Georgia', serif; /* Font for h5 */
+    font-size: 20px; /* Size for h5 */
+    font-weight: bold;
+    text-decoration: underline;
+    color: #bbb; /* Very light gray */
+}
+
+h6 {
+    font-family: 'Tahoma', sans-serif; /* Font for h6 */
+    font-size: 15px; /* Size for h6 */
+    text-transform: uppercase;
+    color: #ddd; /* Faint gray */
+}

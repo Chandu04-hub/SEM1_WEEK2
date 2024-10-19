@@ -1,0 +1,35 @@
+ul.todo-list {
+    list-style-type: none; 
+    padding: 0;
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: auto;
+}
+ul.todo-list li {
+    margin: 10px 0;
+    font-size: 16px;
+    background-color:rgb(217, 206, 206);
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+ul.todo-list input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+body {
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
